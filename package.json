@@ -1,0 +1,27 @@
+{
+  "name": "react-native-module",
+  "version": "0.1.0",
+  "description": "react native module boilerplate",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node scripts/setup.js",
+    "build": "tsc --outDir dist"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Geunhyeok LEE <dev.ghlee@gmail.com> (https://github.com/leegeunhyeok)",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-native": "^0.69.2"
+  }
+}
